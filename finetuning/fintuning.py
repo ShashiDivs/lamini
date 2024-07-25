@@ -55,7 +55,7 @@ lamini_api_key = os.getenv('LAMINI_API_KEY')
 # Set the API key in the lamini module
 lamini.api_key = lamini_api_key
 
-#lamini.api_key = "3474214bf92aa6520b78840a0aa63d02dd4e62a3c0f60e8e29433a13ea189dbf"
+
 
 llm = Lamini(model_name="meta-llama/Meta-Llama-3-8B-Instruct")
 data = get_data()
